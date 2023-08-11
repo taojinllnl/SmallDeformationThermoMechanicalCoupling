@@ -1,0 +1,3 @@
+After the "main.cc" is compiled, copy the input files from one of the example folders (for instance, 2D_plate or 2D_TBC) under the current folder to run the code. The time step size can be assigned in the file "timeDataFile". The material properties can be assigned in the file "materialDataFile".
+
+The staggered approach has two options. The first option is based on the isothermal split, which is only conditionally stable. The second approach is based on the adiabatic split, which is unconditionally stable. To choose between these two options, modify the entry "**set Split option**" in the file "**parameters.prm**" accordingly.
