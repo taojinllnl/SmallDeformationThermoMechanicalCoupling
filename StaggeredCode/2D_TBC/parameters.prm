@@ -1,0 +1,40 @@
+# Listing of Parameters
+# ---------------------
+subsection Scenario
+  # Geometry, loading and boundary conditions scenario
+  set Scenario number = 4
+
+  # Operator split option (isothermal or adiabatic)
+  set Split option = adiabatic
+
+  # Number of elements (1D)
+  set Number of elements = 100
+  
+  # Length of bar (1D)
+  set Total length = 100.0
+  
+  # Total number of material regions
+  set Material regions = 4
+  
+  # Material data file name
+  set Material data file = materialDataFile
+  
+  # Adaptive refinement level
+  set Adaptive refinement = 2
+end
+
+subsection Finite element system
+  # Polynomial order
+  set Polynomial degree = 1
+
+  # Gauss quadrature order
+  set Quadrature order = 2
+end
+
+subsection Time
+  # End time
+  set End time       = 1.0
+  
+  # Time data groups
+  set Time data file = timeDataFile
+end
