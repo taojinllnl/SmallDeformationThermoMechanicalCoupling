@@ -1,1 +1,1 @@
-After the "main.cc" is compiled, copy the input files from one of the example folders (for instance, 2D_plate or 2D_TBC) to run the code.
+After the "main.cc" is compiled, copy the input files from one of the example folders (for instance, 2D_plate or 2D_TBC) to run the code. The time step size can be assigned in the file "timeDataFile", and the material properties can be assigned in the file "materialDataFile".
